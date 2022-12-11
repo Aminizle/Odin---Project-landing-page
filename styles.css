@@ -1,0 +1,54 @@
+.body {
+    --primary-color: #F9FAF8;
+    --secondary-color: #1F2937;
+    --thirtiary-color: #E5E7EB;
+}
+
+
+#header, footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 3rem; /* 1 rem is 16 pixels. 3x16=48 pixels*/
+    font-style: bold;
+    color: var(--primary-color);
+}
+
+.sub-hero-text, .nav-link {
+    font-size: 18px;
+    color: var(--thirtiary-color);
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+button, .call-to-action {
+    background-color: #3882F6;
+    color: var(--primary-color);
+}
+
+h3 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-style: bold;
+}
+
+.quote  {
+    background-color: var(--thirtiary-color);
+}
+
+.quote-text {
+    font-size: 2rem;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-by {
+    font-size: 2rem;
+    font-style: bold;
+    color: #1f2937;
+}
