@@ -2,7 +2,8 @@ body {
     --primary-color: #F9FAF8;
     --secondary-color: #1F2937;
     --tertiary-color: #E5E7EB;
-    margin: 0;
+    margin: 0px;
+    
     
 }
 
@@ -10,11 +11,11 @@ body {
 footer {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding-right: 200px;
 }
 
 #header {
     height: 500px;
+    padding: 10px 50px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ button, .call-to-action {
     color: var(--primary-color);
 }
 
-button {
+.main-button {
     border: none;
     color: white;
     padding: 9px 40px;
@@ -60,19 +61,24 @@ h3 {
     height: 430px;
     display: flex;
    flex-direction: column;
-   
+   justify-content: center;
+padding: 0 50px;   
 }
 
-.quote-text {
+.quote-text-container {
     font-size: 2rem;
     font-style: italic;
     color: var(--secondary-color);
+    display: flex;
+    justify-content: flex-start;
 }
 
-.quote-by {
+.quote-by-container {
     font-size: 2rem;
     font-style: bold;
     color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
     
 }
 
@@ -124,4 +130,38 @@ padding: 0px 150px;
     width: 200px;
     border-radius: 10px;
     
+}
+
+.call-to-action {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 50px;
+}
+
+.call-to-action-text {
+    font-weight: bold;
+}
+
+.call-to-action-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+}
+
+
+.call-to-action-button {
+    border: 2px solid white;
+    color: white;
+    padding: 5px 40px;
+    font-size: 16px;  
+    border-radius: 10px;
+}
+
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
