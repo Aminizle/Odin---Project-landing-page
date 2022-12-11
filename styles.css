@@ -1,9 +1,8 @@
-.body {
+body {
     --primary-color: #F9FAF8;
     --secondary-color: #1F2937;
-    --thirtiary-color: #E5E7EB;
+    --tertiary-color: #E5E7EB;
 }
-
 
 #header, footer {
     background-color: var(--secondary-color);
@@ -18,7 +17,7 @@ h1 {
 
 .sub-hero-text, .nav-link {
     font-size: 18px;
-    color: var(--thirtiary-color);
+    color: var(--tertiary-color);
 }
 
 h2 {
@@ -38,13 +37,13 @@ h3 {
 }
 
 .quote  {
-    background-color: var(--thirtiary-color);
+    background-color: var(--tertiary-color);
 }
 
 .quote-text {
     font-size: 2rem;
     font-style: italic;
-    color: #1f2937;
+    color: var(--secondary-color);
 }
 
 .quote-by {
