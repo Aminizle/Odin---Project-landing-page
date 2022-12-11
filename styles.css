@@ -3,12 +3,14 @@ body {
     --secondary-color: #1F2937;
     --tertiary-color: #E5E7EB;
     margin: 0;
+    
 }
 
 #header,
 footer {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    padding-right: 200px;
 }
 
 #header {
@@ -34,8 +36,7 @@ h2 {
 
 }
 
-button,
-.call-to-action {
+button, .call-to-action {
     background-color: #3882F6;
     color: var(--primary-color);
 }
@@ -56,6 +57,10 @@ h3 {
 
 .quote {
     background-color: var(--tertiary-color);
+    height: 430px;
+    display: flex;
+   flex-direction: column;
+   
 }
 
 .quote-text {
@@ -68,6 +73,7 @@ h3 {
     font-size: 2rem;
     font-style: bold;
     color: #1f2937;
+    
 }
 
 header {
@@ -77,11 +83,9 @@ header {
 
 }
 
-nav {}
-
 ul {
     display: flex;
-    padding-right: 200px;
+    
 
 }
 
@@ -93,11 +97,31 @@ li {
 .main-container {
     display: flex;
     justify-content: space-between;
-    padding-right: 175px;
+    
     padding-top: 75px
 }
 
-img {
+.img-main {
 
-    max-width: 500px;
+    width: 500px;
+}
+
+.information-section {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure-container {
+    display: flex;
+    justify-content: space-around;
+padding: 0px 150px;
+
+}
+
+.img-information {
+    width: 200px;
+    border-radius: 10px;
+    
 }
